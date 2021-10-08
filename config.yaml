@@ -81,7 +81,7 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpeg
+      - image: lbs.jpg
         subtitle: I love sundowners
         title: About Me
         url: blogs/aliquam
