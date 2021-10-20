@@ -8,8 +8,8 @@ draft: false
 image: climate_change.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
-slug: risk_return # slug is the shorthand URL address... no spaces plz
-title: Risk-Return of DJIA stocks
+slug: tile2 # slug is the shorthand URL address... no spaces plz
+title: Climate change and temperature anomalies
 ---
   
 
