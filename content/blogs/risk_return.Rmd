@@ -49,7 +49,7 @@ library(ggrepel)
 
 # Returns of financial stocks
 
-Below you can see the distribution of monthly returns for the 30 Dow Jones Industrial Average stocks as well as the risk-return trade-off. The respective periods are given in the subtitles of the graphs. 
+Below you can see the distribution of monthly returns for the 30 Dow Jones Industrial Average stocks as well as the risk-return trade-off. The respective periods are given in the subtitles of the graphs.
 
 ```{r, tickers_from_wikipedia, echo=FALSE}
 
