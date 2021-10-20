@@ -69,7 +69,6 @@ weather <-
 
 
 
-
 ```{r tidyweather, echo=FALSE}
 tidyweather <- weather %>%
   select(Year:Dec)%>% # selecting year and 12 month variables
@@ -77,7 +76,6 @@ tidyweather <- weather %>%
                names_to ="Month",
                values_to = "delta")
 
-glimpse(tidyweather)
 
 ```
 
