@@ -81,11 +81,11 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpg
+      - image: me.jpg
         subtitle: CV
         title: About Me
         url: blogs/about_me
-      - image: pic02.jpg
+      - image: dow_jones.jpg
       #  subtitle: Feugiat Amet Tempus
         title: Risk return of DJIA
         url: blogs/risk_return
@@ -93,18 +93,18 @@ params:
        # subtitle: Climate change and temperature anomalies
         title: Climate change and temperature anomalies
         url: blogs/tile2
-      - image: pic04.jpg
+      - image: yield_curve.jpg
       # subtitle: US Yield Curve
-        title: US Yield Curve
+        title: US yield curve
         url: blogs/tile3
-      - image: pic05.jpg
+      - image: gdp_cover.jpg
       # subtitle: GDP components
         title: GDP components
         url: blogs/tile4
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+      - image: tictactoe.jpg
+      # subtitle: Feugiat Amet Tempus
+        title: Tic Tac Toe
+        url: blogs/tile5
   two:
     buttonText: Get Started
     enable: no
