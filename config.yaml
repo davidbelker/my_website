@@ -103,7 +103,7 @@ params:
         url: blogs/tile4
       - image: tictactoe.jpg
       # subtitle: Feugiat Amet Tempus
-        title: Tic Tac Toe
+        title: Tic Tac Toe AI
         url: blogs/tile5
   two:
     buttonText: Get Started

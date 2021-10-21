@@ -9,7 +9,7 @@ image: tictactoe.jpg # save picture in \static\img\blogs. Acceptable formats= jp
 
 keywords: ""
 slug: tile5 # slug is the shorthand URL address... no spaces plz
-title: tbd
+title: Tic Tac Toe
 ---
   
 
