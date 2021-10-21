@@ -34,32 +34,4 @@ title: US Yield Curve
 <h2>Yield Curve Inversion</h2>
 <p><img src="/blogs/tile3_files/figure-html/final_part_challenge_1-1.png" width="1440" style="display: block; margin: auto;" /></p>
 <p>An inverted yield curve does seem like a good predictor of recessions. Almost every time the spread between the 10y and the 3m Treasury became negative, a recession followed. This is certainly true for the big crises in the 80s, the Dotcom burst and the Lehman catastrophe. Even before the COVID-19 pandemic the yield curve was inverted. Every single inversion since 1999 preceded a recession.</p>
-<pre class="r"><code># get US recession dates after 1946 from Wikipedia 
-# https://en.wikipedia.org/wiki/List_of_recessions_in_the_United_States
-
-recessions &lt;- tibble(
-  from = c(&quot;1948-11-01&quot;, &quot;1953-07-01&quot;, &quot;1957-08-01&quot;, &quot;1960-04-01&quot;, &quot;1969-12-01&quot;, &quot;1973-11-01&quot;, &quot;1980-01-01&quot;,&quot;1981-07-01&quot;, &quot;1990-07-01&quot;, &quot;2001-03-01&quot;, &quot;2007-12-01&quot;,&quot;2020-02-01&quot;),  
-  to = c(&quot;1949-10-01&quot;, &quot;1954-05-01&quot;, &quot;1958-04-01&quot;, &quot;1961-02-01&quot;, &quot;1970-11-01&quot;, &quot;1975-03-01&quot;, &quot;1980-07-01&quot;, &quot;1982-11-01&quot;, &quot;1991-03-01&quot;, &quot;2001-11-01&quot;, &quot;2009-06-01&quot;, &quot;2020-04-30&quot;) 
-  )  %&gt;% 
-  mutate(From = ymd(from), 
-         To=ymd(to),
-         duration_days = To-From)
-
-
-recessions</code></pre>
-<pre><code>## # A tibble: 12 x 5
-##    from       to         From       To         duration_days
-##    &lt;chr&gt;      &lt;chr&gt;      &lt;date&gt;     &lt;date&gt;     &lt;drtn&gt;       
-##  1 1948-11-01 1949-10-01 1948-11-01 1949-10-01 334 days     
-##  2 1953-07-01 1954-05-01 1953-07-01 1954-05-01 304 days     
-##  3 1957-08-01 1958-04-01 1957-08-01 1958-04-01 243 days     
-##  4 1960-04-01 1961-02-01 1960-04-01 1961-02-01 306 days     
-##  5 1969-12-01 1970-11-01 1969-12-01 1970-11-01 335 days     
-##  6 1973-11-01 1975-03-01 1973-11-01 1975-03-01 485 days     
-##  7 1980-01-01 1980-07-01 1980-01-01 1980-07-01 182 days     
-##  8 1981-07-01 1982-11-01 1981-07-01 1982-11-01 488 days     
-##  9 1990-07-01 1991-03-01 1990-07-01 1991-03-01 243 days     
-## 10 2001-03-01 2001-11-01 2001-03-01 2001-11-01 245 days     
-## 11 2007-12-01 2009-06-01 2007-12-01 2009-06-01 548 days     
-## 12 2020-02-01 2020-04-30 2020-02-01 2020-04-30  89 days</code></pre>
 </div>
