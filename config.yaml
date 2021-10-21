@@ -94,9 +94,9 @@ params:
         title: Climate change and temperature anomalies
         url: blogs/tile2
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
+      # subtitle: US Yield Curve
+        title: US Yield Curve
+        url: blogs/tile3
       - image: pic05.jpg
         subtitle: Ipsum Dolor Sit Amet
         title: Consequat
