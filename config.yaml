@@ -101,7 +101,7 @@ params:
       # subtitle: GDP components
         title: GDP components
         url: blogs/tile4
-      - image: tictactoe.jpg
+      - image: tictactoe_cover.jpg
       # subtitle: Feugiat Amet Tempus
         title: Tic Tac Toe AI
         url: blogs/tile5
