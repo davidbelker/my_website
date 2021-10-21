@@ -102,7 +102,7 @@ myStocks <- tickers %>%
          from = "2000-01-01") %>%
   group_by(symbol) 
 
-glimpse(myStocks) # examine the structure of the resulting data frame
+# glimpse(myStocks) # examine the structure of the resulting data frame
 ```
 
 
