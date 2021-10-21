@@ -82,9 +82,9 @@ params:
     enable: yes
     showcase:
       - image: lbs.jpg
-        subtitle: I love sundowners
+        subtitle: CV
         title: About Me
-        url: blogs/aliquam
+        url: blogs/about_me
       - image: pic02.jpg
       #  subtitle: Feugiat Amet Tempus
         title: Risk return of DJIA
