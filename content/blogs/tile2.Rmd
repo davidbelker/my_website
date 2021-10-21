@@ -12,9 +12,6 @@ slug: tile2 # slug is the shorthand URL address... no spaces plz
 title: Climate change and temperature anomalies
 ---
   
-
-
-
 ```{r, setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(
   message = FALSE, 
